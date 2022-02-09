@@ -1,0 +1,61 @@
+.branding{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.showcase{
+    background-image: url("./img/img1.jpg");
+    height: 500px;
+    background-position: center;
+    padding: 100px 100px;
+    color: #fff;
+}
+
+.showcase h1{
+    font-weight: bold;
+    text-shadow: 2px 2px darkgray;
+}
+
+.showcase hr{
+    width: 100px;
+    margin: auto;
+}
+.showcase p{
+    font-size:15px ;
+    padding: 10px;
+}
+
+.section{
+    padding: 40px;
+}
+
+section h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+.section .fa{
+    font-size: 40px;
+}
+section img{
+    width: 100%;
+    height:50%;
+}
+
+#services{
+    margin: 0px;
+    display: block;
+    
+}
+
+
+@media only screen and (max-width:600px){
+    body{
+        margin-top: 300px;
+    }
+
+    .showcase{
+        height: 500px;
+        padding: 20px;
+    }
+}
